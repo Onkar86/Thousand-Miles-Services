@@ -22,5 +22,6 @@ export default defineConfig({
       }
     }
   },
-  base: './Thousand-Miles-Services' // This ensures assets are loaded with relative paths
+  // base: './Thousand-Miles-Services' // This ensures assets are loaded with relative paths
+ base: './'
 });

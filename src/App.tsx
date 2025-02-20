@@ -542,7 +542,7 @@ function App() {
                   <div>
                     <h4 className="font-semibold">Phone</h4>
                     <p className="text-gray-600">+91 86928 03848</p>
-                    <br>
+                    
                     <p className="text-gray-600">+91 98236 75048</p>
 
                   </div>
@@ -555,7 +555,7 @@ function App() {
                       info@thousandmilesservices.com
                     </p>
                   </div>
-                  <br>
+                  
                   <div>
                     <h4 className="font-semibold">Email</h4>
                     <p className="text-gray-600">

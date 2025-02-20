@@ -48,7 +48,6 @@ function App() {
       return;
     }
 
-    // Email functionality
     window.location.href = `mailto:thousandmilesservices@gmail.com?subject=Inquiry from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom: ${formData.name}%0D%0AEmail: ${formData.email}`;
   };
 
@@ -77,6 +76,7 @@ function App() {
             <button
               onClick={() => setShowMobileMenu(!showMobileMenu)}
               className="md:hidden p-2"
+              aria-label="Toggle mobile menu"
             >
               <div className="w-6 h-0.5 bg-gray-600 mb-1"></div>
               <div className="w-6 h-0.5 bg-gray-600 mb-1"></div>
@@ -526,14 +526,14 @@ function App() {
                   <div>
                     <h4 className="font-semibold">Corporate Address</h4>
                     <p className="text-gray-600">
-                    Ulwe Sector 17, Near Ramsheth Thakur International Sports Complex. 
+                      Ulwe Sector 17, Near Ramsheth Thakur International Sports
+                      Complex.
                       <br />
-                      Navi mumbai, Maharashtra 410206 - India
+                      Navi Mumbai, Maharashtra 410206 - India
                     </p>
-                     <h4 className="font-semibold">Warehouse Address</h4>
+                    <h4 className="font-semibold mt-4">Warehouse Address</h4>
                     <p className="text-gray-600">
-                   Kolhapur - Maharashtra  416003 - India 
-                   </br>
+                      Kolhapur - Maharashtra 416003 - India
                     </p>
                   </div>
                 </div>
@@ -542,22 +542,17 @@ function App() {
                   <div>
                     <h4 className="font-semibold">Phone</h4>
                     <p className="text-gray-600">+91 86928 03848</p>
-                    
                     <p className="text-gray-600">+91 98236 75048</p>
-
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Mail className="h-6 w-6 text-blue-600 mt-1" />
-                   <div>
+                  <div>
                     <h4 className="font-semibold">Official Email</h4>
                     <p className="text-gray-600">
                       info@thousandmilesservices.com
                     </p>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-semibold">Email</h4>
+                    <h4 className="font-semibold mt-4">Email</h4>
                     <p className="text-gray-600">
                       thousandmilesservices@gmail.com
                     </p>

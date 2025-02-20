@@ -524,11 +524,16 @@ function App() {
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-blue-600 mt-1" />
                   <div>
-                    <h4 className="font-semibold">Crporate Adress</h4>
+                    <h4 className="font-semibold">Corporate Address</h4>
                     <p className="text-gray-600">
                     Ulwe Sector 17, Near Ramsheth Thakur International Sports Complex. 
                       <br />
-                      Navi mumbai, Maharashtra 410206
+                      Navi mumbai, Maharashtra 410206 - India
+                    </p>
+                     <h4 className="font-semibold">Warehouse Address</h4>
+                    <p className="text-gray-600">
+                   Kolhapur - Maharashtra  416003 - India 
+                   </br>
                     </p>
                   </div>
                 </div>
@@ -537,6 +542,8 @@ function App() {
                   <div>
                     <h4 className="font-semibold">Phone</h4>
                     <p className="text-gray-600">+91 86928 03848</p>
+                    <p className="text-gray-600">+91 98236 75048</p>
+
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">

@@ -64,7 +64,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <img
-                src="./public/image/10001.png"
+                src="https://i.ibb.co/4RNSySTK/10001.png"
                 alt="Thousand Miles Services Logo"
                 className="h-12 w-auto"
               />
@@ -568,7 +568,7 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img
-                  src="./public/image/1000-removebg-preview1.png"
+                  src="https://i.ibb.co/rfFhvmzG/1000-removebg-preview1.png"
                   alt="Thousand Miles Services Logo"
                   className="h-10 w-auto"
                 />

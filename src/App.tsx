@@ -64,7 +64,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <img
-                src="https://i.ibb.co/4RNSySTK/10001.png"
+                src="./public/image/10001.png"
                 alt="Thousand Miles Services Logo"
                 className="h-12 w-auto"
               />
@@ -166,7 +166,7 @@ function App() {
       <section className="relative h-screen">
         <div className="absolute inset-0">
           <img
-            src="https://media.istockphoto.com/id/1315197056/photo/the-busy-container-port-and-natural-scenery-in-shangha.jpg?s=612x612&w=0&k=20&c=ueqEGunQy-iwiW8LeRMFKimTZJeCjsB80W0KwtnZnAo="
+            src="https://i.ibb.co/Z5JnBQF/ship-port-4519811-1280-1.jpg"
             alt="Container port at sunset"
             className="w-full h-full object-cover"
           />
@@ -524,11 +524,11 @@ function App() {
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-blue-600 mt-1" />
                   <div>
-                    <h4 className="font-semibold">Address</h4>
+                    <h4 className="font-semibold">Crporate Adress</h4>
                     <p className="text-gray-600">
-                      123 Trade Center, Business District
+                    Ulwe Sector 17, Near Ramsheth Thakur International Sports Complex. 
                       <br />
-                      Mumbai, Maharashtra 400001
+                      Navi mumbai, Maharashtra 410206
                     </p>
                   </div>
                 </div>
@@ -568,7 +568,7 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img
-                  src="https://i.ibb.co/67SWs0Kv/1000-removebg-preview1.png"
+                  src="./public/image/1000-removebg-preview1.png"
                   alt="Thousand Miles Services Logo"
                   className="h-10 w-auto"
                 />
